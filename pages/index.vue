@@ -4,7 +4,7 @@
 
     <header>
       <h1>Все необходимые вам <br> инструменты ИИ.</h1>
-      <NuxtLink>Начните бесплатно</NuxtLink>
+      <NuxtLink to="https://t.me/daho_ai_bot">Начните бесплатно</NuxtLink>
       <span class="header-span"></span>
       <p>Присоединяйтесь к 7383 счастливым <br> пользователям, и их число растёт</p>
       <div class="header-ai">

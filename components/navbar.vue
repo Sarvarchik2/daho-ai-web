@@ -6,7 +6,7 @@
     <div class="navbar-right">
 
       <NuxtLink to="/tools">Инструменты</NuxtLink>
-      <NuxtLink>Профиль</NuxtLink>
+      <NuxtLink to="https://t.me/daho_ai_bot">Профиль</NuxtLink>
     </div>
 
   </div>
