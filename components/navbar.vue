@@ -1,11 +1,11 @@
 <template>
   <div class="navbar container">
-    <div class="logo">
+    <NuxtLink to="/" class="logo">
       <img src="@/assets/logo.png" alt="logo">
-    </div>
+    </NuxtLink>
     <div class="navbar-right">
 
-      <NuxtLink>Инструменты</NuxtLink>
+      <NuxtLink to="/tools">Инструменты</NuxtLink>
       <NuxtLink>Профиль</NuxtLink>
     </div>
 
@@ -21,10 +21,12 @@
   border-radius: 50px;
   padding: 10px 40px;
   align-items: center;
+  box-sizing: border-box;
 }
 .logo{
   width: 111px;
   height: 22px;
+  text-decoration: none;
 }
 .logo img{
   width: 100%;
@@ -42,10 +44,23 @@
   color: #000;
   line-height: 18px;
   text-decoration: none;
+
 }
 .navbar-right a:nth-of-type(2){
   border: 2px solid #000;
   padding: 10px;
   border-radius: 50px;
+}
+@media (max-width: 769px) {
+  .navbar-right a{
+    font-size: 18px;
+  }
+  .logo {
+    width: 89px;
+    height: 20px;
+  }
+  .navbar{
+    width: 96%!important;
+  }
 }
 </style>
